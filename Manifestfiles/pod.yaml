@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: sample-cont 
-      image: muralisocial123/citi-web-image:lates
+      image: muralisocial123/citi-web-image:latest
       ports:
         - containerPort: 80
       resources:
