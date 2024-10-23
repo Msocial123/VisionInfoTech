@@ -13,7 +13,7 @@ spec:
         app: web 
     spec:
       containers:
-        - name: Web-cont 
+        - name: web-cont 
           image: muralisocial123/transcation-image:latest
           ports:
             - containerPort: 3000
