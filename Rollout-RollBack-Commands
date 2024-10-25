@@ -1,0 +1,27 @@
+  49  kubectl get deployments -o wide
+   50  kubectl set image deployment/citi-web-deployment web-cont=muralisocial123/clahan-product-image:latest
+   51  kunectl get pods -o wide
+   52  kubectl get pods -o wide
+   53  kubectl rollout status deployment/citi-web-deployment
+   54  kubectl rollout history deployment/citi-web-deployment
+   55  kubectl get deployments -o wide
+   56  clear
+   57  kubectl rollout history deployment/citi-web-deployment
+   58  kubectl rollout history deployment/citi-web-deployment --revision=1
+   59  kubectl rollout history deployment/citi-web-deployment --revision=2
+   60  kubectl rollout history deployment/citi-web-deployment -all
+   61  kubectl rollout history deployment/citi-web-deployment --all
+   62  kubectl rollout history deployment/citi-web-deployment
+   63  clear
+   64  kubectl rollout pause deployment/citi-web-deployment
+   65  kubectl rollout status deployment/citi-web-deployment
+   66  kubectl rollout resume deployment/citi-web-deployment
+   67  kubectl get deployment -o wide
+   68  kubectl rollout undo deployment/citi-web-deployment
+   69  kubectl get deployment -o wide
+   70  kubectl get pods -o wide
+   71  kubectl get deployment -o wide
+   72  kubectl rollout history deployment/citi-web-deployment
+   73  kubectl rollout undo deployment/citi-web-deployment --to-revision=3
+   74  kubectl rollout undo deployment/citi-web-deployment --to-revision=2
+   75  kubectl get deployment -o wide
