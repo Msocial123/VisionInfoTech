@@ -1,7 +1,7 @@
 apiVersion: apps/v1 
 kind: Deployment 
 metadata: 
-  name: Citi-Web-Deployment 
+  name: citi-web-deployment 
 spec:
   replicas: 3
   selector:
