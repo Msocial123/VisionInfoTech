@@ -200,3 +200,4 @@ kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/we
 kubectl get nodes
 
 ```
+Testing to delete feature branch automatically.
